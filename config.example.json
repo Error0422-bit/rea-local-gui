@@ -1,0 +1,12 @@
+{
+  "ghidra_home": "C:\\Tools\\ghidra_12.1.4_PUBLIC",
+  "full_mode": {
+    "timeout_minutes": 60,
+    "analysis_grace_minutes": 25,
+    "max_output_mb": 256,
+    "max_functions": 0,
+    "max_calls": 100000,
+    "max_code_chars": 60000,
+    "function_timeout_seconds": 15
+  }
+}
