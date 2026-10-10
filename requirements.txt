@@ -1,0 +1,4 @@
+# Tested Python environment: Python 3.11
+lief==1.0.0
+tree-sitter-language-pack==1.21.0
+tree-sitter==0.26.0
