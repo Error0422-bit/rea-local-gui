@@ -1,0 +1,38 @@
+# Personal configuration
+config.json
+reports/
+test_samples/
+backup_before_*/
+*.bak
+*.installing
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Ghidra projects and generated analysis data
+ghidra_project/
+*.gpr
+*.rep
+*.jsonl
+*.log
+
+# Third-party binaries
+*.exe
+*.dll
+*.pdb
+*.sys
+*.asar
+*.apk
+
+# Temporary files
+*.tmp
+*.zip
+.DS_Store
+Thumbs.db
