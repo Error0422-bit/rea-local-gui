@@ -69,7 +69,7 @@ class Application:
         ttk.Radiobutton(controls, text='尽可能完整反编译', variable=self.mode, value='full').pack(side='left', padx=5)
         self.export_code_button = ttk.Button(
             controls, text='导出伪代码 (.c)',
-            command=lambda: open_export_dialog(self)
+           command=lambda: open_export_dialog(self.root)
         )
         self.export_code_button.pack(side='left', padx=5)
         self.start_button = ttk.Button(
